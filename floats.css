@@ -1,0 +1,21 @@
+body{
+    background-color: darkblue;
+    padding: 30px;
+}
+.article{
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid cyan;
+}
+h1{
+    color:crimson
+}
+img{
+    float: left;
+    margin: 20px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
